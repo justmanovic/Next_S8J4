@@ -1,0 +1,18 @@
+.modal {
+  z-index: 100;
+  background-color: white;
+  min-width: 60%;
+  min-height: 30rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.153);
+  padding: 3rem;
+  border-radius: 15px;
+}
+
+.backdrop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  z-index: 99;
+}

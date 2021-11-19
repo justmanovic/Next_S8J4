@@ -1,0 +1,7 @@
+.pic {
+  height: 100px;
+}
+
+.pic > img {
+  height: 100%;
+}
